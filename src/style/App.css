@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  padding: 30px;
+  max-width: 1100px;
+  margin: auto;
+  border-radius: 25px;
+  margin-top: 100px;
+}
+
+.ant-input-group-wrapper {
+  margin-bottom: 50px;
+}
+
+.ant-list {
+  width: 100%;
+}
+
+.ant-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.ant-list-item:last-child {
+  border-bottom: none;
+}
+
+
+.ant-checkbox-wrapper {
+  flex-grow: 1;
+  text-align: left;
+}
+
+
+.ant-btn-text {
+  padding: 0;
+}
+
+
+.completed-task {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+
+.clear-completed-button {
+  margin-top: 20px;
+}
+
+.buttot-app {
+  margin-right: 10px;
+}
